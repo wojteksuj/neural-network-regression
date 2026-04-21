@@ -1,0 +1,86 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# Optional: if you don’t want outputs tracked
+# Uncomment if needed
+# *.ipynb
+
+# =========================
+# PyCharm / IntelliJ
+# =========================
+.idea/
+*.iml
+*.iws
+
+# =========================
+# Logs & misc
+# =========================
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
